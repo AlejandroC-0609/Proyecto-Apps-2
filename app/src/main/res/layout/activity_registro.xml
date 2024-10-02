@@ -115,10 +115,10 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:text="Estoy de acuerdo con los Terminos y  Condiciones."
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-        tools:layout_editor_absoluteX="50dp" />
+        tools:layout_editor_absoluteX="25dp" />
 
     <Button
         android:id="@+id/button5"

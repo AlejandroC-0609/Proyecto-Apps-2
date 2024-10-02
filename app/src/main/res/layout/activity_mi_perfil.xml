@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiPerfil">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/carpeta"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="71dp"
+        android:layout_height="58dp"
+        android:text="<---"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="164dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miguel Santamaría"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        tools:layout_editor_absoluteX="147dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:srcCompat="@drawable/vistas"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@drawable/guardado"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView18"
+        app:srcCompat="@drawable/gorro_chef"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Mis calorias semanales"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Mis Calorias de hoy"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Estadisticas"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="18000Cal"
+        app:layout_constraintStart_toEndOf="@+id/textView43"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:text="2000Cal"
+        app:layout_constraintStart_toEndOf="@+id/textView42"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis Recetas"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardados"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vistos"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        tools:layout_editor_absoluteX="303dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
