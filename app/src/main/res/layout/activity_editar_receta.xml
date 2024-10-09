@@ -20,7 +20,7 @@
         android:layout_width="71dp"
         android:layout_height="58dp"
         android:layout_marginTop="16dp"
-        android:text="<---"
+        android:text="@string/botonTexto"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
