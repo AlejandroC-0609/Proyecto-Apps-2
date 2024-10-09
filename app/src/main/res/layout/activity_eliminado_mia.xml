@@ -21,7 +21,7 @@
         android:layout_height="78dp"
         android:layout_marginTop="36dp"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
-        app:srcCompat="@drawable/hamburguesa"
+        app:srcCompat="@drawable/ham"
         tools:layout_editor_absoluteX="161dp" />
 
     <Button
@@ -73,7 +73,7 @@
         android:layout_height="78dp"
         android:layout_marginTop="36dp"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
-        app:srcCompat="@drawable/hamburguesa"
+        app:srcCompat="@drawable/ham"
         tools:layout_editor_absoluteX="34dp" />
 
     <EditText

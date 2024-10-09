@@ -45,4 +45,8 @@
     <string name="botonTexto">texto</string>
     <string name="_1_cebolla_blanca_picada"><![CDATA[1 cebolla blanca, picada ]]></string>
     <string name="continuar">Continuar</string>
+    <string name="textoinicio1">Encuentra gran variedad de recetas gratis compartidas por cocineros caseros como tu, solo en Frugal Feast</string>
+    <string name="img1">Hamburguesa</string>
+    <string name="tacos">Tacos</string>
+    <string name="paella">paella</string>
 </resources>

@@ -1,14 +1,14 @@
 <resources>
-    <dimen name="grid_4">4dp</dimen>
-    <dimen name="grid_8">8dp</dimen>
-    <dimen name="grid_12">12dp</dimen>
-    <dimen name="grid_16">16dp</dimen>
-    <dimen name="grid_24">24dp</dimen>
-    <dimen name="grid_32">32dp</dimen>
-    <dimen name="aviso">40dp</dimen>
-    <dimen name="h1">32dp</dimen>
-    <dimen name="h2">28dp</dimen>
-    <dimen name="h3">18dp</dimen>
-    <dimen name="texto_grande">20dp</dimen>
-    <dimen name="texto_pequeño">15dp</dimen>
+    <dimen name="grid_4">4sp</dimen>
+    <dimen name="grid_8">8sp</dimen>
+    <dimen name="grid_12">12sp</dimen>
+    <dimen name="grid_16">16sp</dimen>
+    <dimen name="grid_24">24sp</dimen>
+    <dimen name="grid_32">32sp</dimen>
+    <dimen name="aviso">40sp</dimen>
+    <dimen name="h1">32sp</dimen>
+    <dimen name="h2">28sp</dimen>
+    <dimen name="h3">18sp</dimen>
+    <dimen name="texto_grande">20sp</dimen>
+    <dimen name="texto_pequeño">15sp</dimen>
 </resources>
